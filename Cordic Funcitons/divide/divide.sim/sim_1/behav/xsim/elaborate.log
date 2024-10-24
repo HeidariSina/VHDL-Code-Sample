@@ -1,0 +1,16 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto c26c9d37032145fe9995fe7601c39954 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_Linear_tb_behav xil_defaultlib.CORDIC_Linear_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Linear_vectoringmode [cordic_linear_vectoringmode_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_linear_tb
+Built simulation snapshot CORDIC_Linear_tb_behav

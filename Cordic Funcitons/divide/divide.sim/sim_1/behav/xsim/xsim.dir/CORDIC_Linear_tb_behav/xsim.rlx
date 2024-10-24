@@ -1,0 +1,12 @@
+
+{ 
+    crc :  3194090777231049574  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto c26c9d37032145fe9995fe7601c39954 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_Linear_tb_behav xil_defaultlib.CORDIC_Linear_tb" , 
+    buildDate : "Oct 24 2019" , 
+    buildTime : "19:01:44" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/CORDIC_Linear_tb_behav/xsimk.exe\"   \"xsim.dir/CORDIC_Linear_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/CORDIC_Linear_tb_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

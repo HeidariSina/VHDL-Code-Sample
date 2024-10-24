@@ -1,0 +1,1 @@
+-wto "c26c9d37032145fe9995fe7601c39954" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "CORDIC_Linear_tb_behav" "xil_defaultlib.CORDIC_Linear_tb" -log "elaborate.log" 
