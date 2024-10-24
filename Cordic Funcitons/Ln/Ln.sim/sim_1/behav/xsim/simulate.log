@@ -1,0 +1,5 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Failure: Simulation completed
+Time: 1140 ns  Iteration: 0  Process: /CORDIC_hyperbolic_tb/line__67  File: C:/Users/Sinah/Desktop/HW4/Ln/Ln.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd
+$finish called at time : 1140 ns : File "C:/Users/Sinah/Desktop/HW4/Ln/Ln.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" Line 80
