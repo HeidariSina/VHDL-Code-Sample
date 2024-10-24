@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd" \
+"../../../../exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" \
+
+# Do not sort compile order
+nosort
