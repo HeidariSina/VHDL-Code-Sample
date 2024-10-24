@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ROM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/TopModule.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TopModule'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TopModule_tb'

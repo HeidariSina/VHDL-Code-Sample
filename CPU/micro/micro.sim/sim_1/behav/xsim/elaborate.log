@@ -1,0 +1,23 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 3adbd5ff07ab426aa261ae7350a22c07 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TopModule_tb_behav xil_defaultlib.TopModule_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture structural of entity xil_defaultlib.CPU [cpu_default]
+Compiling architecture gatedesign of entity xil_defaultlib.Decoder [decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.ROM [rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_vectoringmode [cordic_hyperbolic_vectoringmode_...]
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_rotationmode [cordic_hyperbolic_rotationmode_d...]
+Compiling architecture structural of entity xil_defaultlib.CORDIC [cordic_default]
+Compiling architecture structural of entity xil_defaultlib.TopModule [topmodule_default]
+Compiling architecture behavioral of entity xil_defaultlib.topmodule_tb
+Built simulation snapshot TopModule_tb_behav

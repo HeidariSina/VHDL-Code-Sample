@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jan 25 22:05:28 2022
+# Process ID: 18516
+# Current directory: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1
+# Command line: vivado.exe -log TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopModule.tcl
+# Log file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1/TopModule.vds
+# Journal file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopModule.tcl -notrace

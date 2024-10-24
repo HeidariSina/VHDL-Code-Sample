@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../micro.srcs/sources_1/imports/final_version/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd" \
+"../../../../micro.srcs/sources_1/imports/final_version/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd" \
+"../../../../micro.srcs/sources_1/new/CORDIC.vhd" \
+"../../../../micro.srcs/sources_1/new/CPU.vhd" \
+"../../../../micro.srcs/sources_1/new/Decoder.vhd" \
+"../../../../micro.srcs/sources_1/new/RAM.vhd" \
+"../../../../micro.srcs/sources_1/new/ROM.vhd" \
+"../../../../micro.srcs/sources_1/new/TopModule.vhd" \
+"../../../../micro.srcs/sim_1/new/TopModule_tb.vhd" \
+
+# Do not sort compile order
+nosort

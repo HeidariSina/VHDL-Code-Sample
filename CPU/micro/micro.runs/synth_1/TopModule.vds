@@ -1,0 +1,389 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Jan 25 22:05:28 2022
+# Process ID: 18516
+# Current directory: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1
+# Command line: vivado.exe -log TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopModule.tcl
+# Log file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1/TopModule.vds
+# Journal file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source TopModule.tcl -notrace
+Command: synth_design -top TopModule -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18812
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1111.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/TopModule.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'CPU' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CPU.vhd:44]
+WARNING: [Synth 8-614] signal 'DB' is read in the process but is not in the sensitivity list [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CPU.vhd:321]
+INFO: [Synth 8-256] done synthesizing module 'CPU' (1#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CPU.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'Decoder' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/Decoder.vhd:48]
+INFO: [Synth 8-226] default block is never used [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/Decoder.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Decoder' (2#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/Decoder.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/ROM.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (3#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/ROM.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (4#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'CORDIC' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_Hyperbolic_vectoringmode' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_Hyperbolic_vectoringmode' (5#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_Hyperbolic_rotationmode' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_Hyperbolic_rotationmode' (6#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd:51]
+WARNING: [Synth 8-614] signal 'busy_sqrt' is read in the process but is not in the sensitivity list [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:197]
+WARNING: [Synth 8-614] signal 'busy_exp' is read in the process but is not in the sensitivity list [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:197]
+WARNING: [Synth 8-614] signal 'busy_ln' is read in the process but is not in the sensitivity list [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:197]
+WARNING: [Synth 8-614] signal 'busy_sinh' is read in the process but is not in the sensitivity list [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:197]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC' (7#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'TopModule' (8#1) [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/TopModule.vhd:41]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1111.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1111.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1111.941 ; gain = 0.000
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'CPU'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                reset_pc | 00000000000000000000000000000000001 |                           000001
+                   fetch | 00000000000000000000000000000000010 |                           000000
+                  decode | 00000000000000000000000000000000100 |                           000010
+                 exe_add | 00000000000000000000000000000001000 |                           000011
+               exe_store | 00000000000000000000000000000010000 |                           000101
+                exe_load | 00000000000000000000000000000100000 |                           000100
+                exe_jump | 00000000000000000000000000001000000 |                           000111
+               exe_minus | 00000000000000000000000000010000000 |                           001000
+           exe_two_compl | 00000000000000000000000000100000000 |                           001001
+            wait_to_zero | 00000000000000000000000001000000000 |                           010000
+           wait_to_zero2 | 00000000000000000000000010000000000 |                           010001
+             cordic_sqrt | 00000000000000000000000100000000000 |                           001011
+              cordic_exp | 00000000000000000000001000000000000 |                           001100
+               cordic_ln | 00000000000000000000010000000000000 |                           001101
+             cordic_sinh | 00000000000000000000100000000000000 |                           001110
+      cordic_read_result | 00000000000000000001000000000000000 |                           001111
+      cordic_read_status | 00000000000000000010000000000000000 |                           010010
+       cordic_set_datain | 00000000000000000100000000000000000 |                           001010
+             uart_set_tx | 00000000000000001000000000000000000 |                           010011
+             uart_get_rx | 00000000000000010000000000000000000 |                           010100
+             uart_set_br | 00000000000000100000000000000000000 |                           010101
+        uart_read_status | 00000000000001000000000000000000000 |                           010110
+        timer_read_count | 00000000000010000000000000000000000 |                           010111
+          timer_start_up | 00000000000100000000000000000000000 |                           011000
+        timer_start_down | 00000000001000000000000000000000000 |                           011001
+           timer_stop_up | 00000000010000000000000000000000000 |                           011010
+         timer_stop_down | 00000000100000000000000000000000000 |                           011011
+           timer_speriod | 00000001000000000000000000000000000 |                           011100
+               timer_sdc | 00000010000000000000000000000000000 |                           011101
+               io_output | 00000100000000000000000000000000000 |                           011110
+                exe_wait | 00001000000000000000000000000000000 |                           000110
+                io_input | 00010000000000000000000000000000000 |                           011111
+                 io_temp | 00100000000000000000000000000000000 |                           100000
+                  io_adc | 01000000000000000000000000000000000 |                           100001
+                    hult | 10000000000000000000000000000000000 |                           100010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'CPU'
+WARNING: [Synth 8-327] inferring latch for variable 'MDR_in_reg_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CPU.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[0]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[1]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[2]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[3]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[4]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[5]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[6]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[7]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[8]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[9]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[10]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[11]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[12]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[13]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[14]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[15]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[16]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[17]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[18]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[19]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[20]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[21]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[22]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[23]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[24]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[25]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[26]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[27]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[28]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[29]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[30]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[31]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[32]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[33]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[34]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[35]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[36]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[37]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[38]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[39]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[40]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[41]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[42]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[43]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[44]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[45]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[46]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[47]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[48]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[49]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[50]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[51]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[52]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[53]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[54]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[55]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[56]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[57]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[58]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[59]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[60]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[61]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[62]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'ram_reg[63]' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/RAM.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'i_next_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd:93]
+WARNING: [Synth 8-327] inferring latch for variable 'busy_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd:111]
+WARNING: [Synth 8-327] inferring latch for variable 'i_next_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'busy_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/imports/final_version/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd:110]
+WARNING: [Synth 8-327] inferring latch for variable 'data_out_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:97]
+WARNING: [Synth 8-327] inferring latch for variable 'ResultOut_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:234]
+WARNING: [Synth 8-327] inferring latch for variable 'DataIn_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:79]
+WARNING: [Synth 8-327] inferring latch for variable 'start_sinh_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:158]
+WARNING: [Synth 8-327] inferring latch for variable 'start_ln_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:126]
+WARNING: [Synth 8-327] inferring latch for variable 'start_sqrt_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:110]
+WARNING: [Synth 8-327] inferring latch for variable 'start_exp_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:142]
+WARNING: [Synth 8-327] inferring latch for variable 'Config_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:81]
+WARNING: [Synth 8-327] inferring latch for variable 'state_start_next_reg' [C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sources_1/new/CORDIC.vhd:193]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1111.941 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 8     
+	   3 Input   16 Bit       Adders := 13    
+	   2 Input   16 Bit       Adders := 5     
+	   2 Input    6 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 23    
+	                6 Bit    Registers := 1     
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  35 Input   35 Bit        Muxes := 1     
+	  31 Input   35 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 8     
+	   2 Input   32 Bit        Muxes := 8     
+	  35 Input   16 Bit        Muxes := 5     
+	  64 Input   16 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 38    
+	   6 Input   16 Bit        Muxes := 20    
+	   8 Input   16 Bit        Muxes := 4     
+	   3 Input   16 Bit        Muxes := 1     
+	  23 Input    8 Bit        Muxes := 1     
+	  35 Input    6 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 4     
+	   2 Input    2 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 87    
+	  35 Input    1 Bit        Muxes := 4     
+	   6 Input    1 Bit        Muxes := 34    
+	   3 Input    1 Bit        Muxes := 3     
+	   5 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP sqrt_out, operation Mode is: A*(B:0x1350).
+DSP Report: operator sqrt_out is absorbed into DSP sqrt_out.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping	Report (see note below)
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|CORDIC      | A*(B:0x1350) | 16     | 14     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:25 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     6|
+|2     |CARRY4  |   148|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |    32|
+|5     |LUT2    |   365|
+|6     |LUT3    |   114|
+|7     |LUT4    |   618|
+|8     |LUT5    |   139|
+|9     |LUT6    |   519|
+|10    |MUXF7   |    80|
+|11    |MUXF8   |    32|
+|12    |FDCE    |   601|
+|13    |FDPE    |     6|
+|14    |FDRE    |    54|
+|15    |LD      |  1225|
+|16    |LDC     |     4|
+|17    |LDP     |     1|
+|18    |IBUF    |     2|
+|19    |OBUF    |     1|
++------+--------+------+
+
+Report Instance Areas: 
++------+---------+----------------------------------+------+
+|      |Instance |Module                            |Cells |
++------+---------+----------------------------------+------+
+|1     |top      |                                  |  3948|
+|2     |  CORDIC |CORDIC                            |  2064|
+|3     |    Ln   |CORDIC_Hyperbolic_vectoringmode   |   486|
+|4     |    exp  |CORDIC_Hyperbolic_rotationmode    |   539|
+|5     |    sinh |CORDIC_Hyperbolic_rotationmode_0  |   526|
+|6     |    sqrt |CORDIC_Hyperbolic_vectoringmode_1 |   412|
+|7     |  cpu    |CPU                               |   446|
+|8     |  ram    |RAM                               |  1424|
+|9     |  rom    |ROM                               |     5|
++------+---------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 83 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1166.617 ; gain = 54.676
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.051 . Memory (MB): peak = 1167.926 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1491 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 20 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1207.211 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1230 instances were transformed.
+  LD => LDCE: 1205 instances
+  LD => LDCE (inverted pins: G): 20 instances
+  LDC => LDCE: 4 instances
+  LDP => LDPE: 1 instance 
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1207.211 ; gain = 95.270
+INFO: [Common 17-1381] The checkpoint 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.runs/synth_1/TopModule.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopModule_utilization_synth.rpt -pb TopModule_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 25 22:06:14 2022...

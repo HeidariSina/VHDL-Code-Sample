@@ -1,0 +1,17 @@
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+Failure: Simulation completed
+Time: 400 ns  Iteration: 0  Process: /TopModule_tb/line__59  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd
+$finish called at time : 400 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" Line 64
+Failure: Simulation completed
+Time: 800 ns  Iteration: 0  Process: /TopModule_tb/line__59  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd
+$finish called at time : 800 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" Line 64
+Failure: Simulation completed
+Time: 1200 ns  Iteration: 0  Process: /TopModule_tb/line__59  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd
+$finish called at time : 1200 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" Line 64
+Failure: Simulation completed
+Time: 1600 ns  Iteration: 0  Process: /TopModule_tb/line__59  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd
+$finish called at time : 1600 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" Line 64
+Failure: Simulation completed
+Time: 2 us  Iteration: 0  Process: /TopModule_tb/line__59  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd
+$finish called at time : 2 us : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/Final_Project/micro/micro.srcs/sim_1/new/TopModule_tb.vhd" Line 64
