@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Mon Nov 29 10:48:35 2021
+# Process ID: 13528
+# Current directory: D:/Darsi/FPGA/HW/S2/HW2/HW2.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/Darsi/FPGA/HW/S2/HW2/HW2.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Darsi/FPGA/HW/S2/HW2/HW2.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/Darsi/FPGA/HW/S2/HW2/HW2.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/Darsi/FPGA/HW/S2/HW2/HW2.sim/sim_1/behav/xsim/xsim.dir/testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 86.156 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov 29 10:48:41 2021...

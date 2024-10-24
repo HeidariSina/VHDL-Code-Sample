@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../HW2.srcs/sources_1/new/CAS.vhd" \
+"../../../../HW2.srcs/sources_1/new/SQR.vhd" \
+"../../../../HW2.srcs/sources_1/new/X.vhd" \
+"../../../../HW2.srcs/sources_1/new/Y.vhd" \
+"../../../../HW2.srcs/sources_1/new/fulladder.vhd" \
+"../../../../HW2.srcs/sources_1/new/SQR_testbench.vhd" \
+
+# Do not sort compile order
+nosort
