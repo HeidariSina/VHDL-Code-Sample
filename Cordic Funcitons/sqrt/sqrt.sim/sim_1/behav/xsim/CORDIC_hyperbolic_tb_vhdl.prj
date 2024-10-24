@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd" \
+"../../../../sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd" \
+
+# Do not sort compile order
+nosort

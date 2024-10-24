@@ -1,0 +1,381 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Jan 21 17:08:36 2022
+# Process ID: 2104
+# Current directory: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17436 C:\Users\AEA\Desktop\Darsi\term7\FPGA\HWs\HW4\extracted\sqrt\sqrt.xpr
+# Log file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/vivado.log
+# Journal file: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/sqrt' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd', nor could it be found using path 'C:/Users/Sinah/Desktop/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd', nor could it be found using path 'C:/Users/Sinah/Desktop/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'sqrt.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:39 . Memory (MB): peak = 1330.359 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_project
+open_project -read_only C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/Ln' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-229] Project 'Ln.xpr' is read-only and therefore could not be upgraded for this version of Vivado.  Use 'File | Save Project As...' if you wish to save an upgraded copy.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/divide' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'divide.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CORDIC_Linear_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj CORDIC_Linear_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.srcs/sources_1/new/CORDIC_Linear_vectoringmode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_Linear_vectoringmode'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.srcs/sim_1/new/CORDIC_Linear_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_Linear_tb'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1330.359 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.sim/sim_1/behav/xsim'
+"xelab -wto c26c9d37032145fe9995fe7601c39954 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_Linear_tb_behav xil_defaultlib.CORDIC_Linear_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c26c9d37032145fe9995fe7601c39954 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_Linear_tb_behav xil_defaultlib.CORDIC_Linear_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Linear_vectoringmode [cordic_linear_vectoringmode_defa...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_linear_tb
+Built simulation snapshot CORDIC_Linear_tb_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1330.359 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CORDIC_Linear_tb_behav -key {Behavioral:sim_1:Functional:CORDIC_Linear_tb} -tclbatch {CORDIC_Linear_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source CORDIC_Linear_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1330.359 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CORDIC_Linear_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:35 . Memory (MB): peak = 1330.359 ; gain = 0.000
+run all
+Failure: Simulation completed
+Time: 1140 ns  Iteration: 0  Process: /CORDIC_Linear_tb/line__67  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.srcs/sim_1/new/CORDIC_Linear_tb.vhd
+$finish called at time : 1140 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/divide/divide.srcs/sim_1/new/CORDIC_Linear_tb.vhd" Line 80
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/exp' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'exp.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CORDIC_hyperbolic_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj CORDIC_hyperbolic_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sources_1/new/CORDIC_Hyperbolic_rotationmode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_Hyperbolic_rotationmode'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_hyperbolic_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+"xelab -wto c7eedc553ac443c1a999ff39645a42b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c7eedc553ac443c1a999ff39645a42b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_rotationmode [cordic_hyperbolic_rotationmode_d...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_hyperbolic_tb
+Built simulation snapshot CORDIC_hyperbolic_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1330.359 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CORDIC_hyperbolic_tb_behav -key {Behavioral:sim_1:Functional:CORDIC_hyperbolic_tb} -tclbatch {CORDIC_hyperbolic_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source CORDIC_hyperbolic_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CORDIC_hyperbolic_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:13 . Memory (MB): peak = 1330.359 ; gain = 0.000
+run all
+Failure: Simulation completed
+Time: 1140 ns  Iteration: 0  Process: /CORDIC_hyperbolic_tb/line__67  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd
+$finish called at time : 1140 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" Line 80
+run all
+Failure: Simulation completed
+Time: 2280 ns  Iteration: 0  Process: /CORDIC_hyperbolic_tb/line__67  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd
+$finish called at time : 2280 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" Line 80
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CORDIC_hyperbolic_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj CORDIC_hyperbolic_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_hyperbolic_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/exp/exp.sim/sim_1/behav/xsim'
+"xelab -wto c7eedc553ac443c1a999ff39645a42b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c7eedc553ac443c1a999ff39645a42b1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_rotationmode [cordic_hyperbolic_rotationmode_d...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_hyperbolic_tb
+Built simulation snapshot CORDIC_hyperbolic_tb_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1330.359 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1330.359 ; gain = 0.000
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1330.359 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/Ln' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Ln.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CORDIC_hyperbolic_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj CORDIC_hyperbolic_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_Hyperbolic_vectoringmode'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_hyperbolic_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.sim/sim_1/behav/xsim'
+"xelab -wto 192a604a3bfa47889811f25f36041f47 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 192a604a3bfa47889811f25f36041f47 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_vectoringmode [cordic_hyperbolic_vectoringmode_...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_hyperbolic_tb
+Built simulation snapshot CORDIC_hyperbolic_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CORDIC_hyperbolic_tb_behav -key {Behavioral:sim_1:Functional:CORDIC_hyperbolic_tb} -tclbatch {CORDIC_hyperbolic_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source CORDIC_hyperbolic_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CORDIC_hyperbolic_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1330.359 ; gain = 0.000
+run all
+Failure: Simulation completed
+Time: 1140 ns  Iteration: 0  Process: /CORDIC_hyperbolic_tb/line__67  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd
+$finish called at time : 1140 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/Ln/Ln.srcs/sim_1/new/CORDIC_hyperbolic_tb.vhd" Line 80
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sinah/Desktop/HW4/sqrt' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd', nor could it be found using path 'C:/Users/Sinah/Desktop/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd', nor could it be found using path 'C:/Users/Sinah/Desktop/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'sqrt.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_files -from_files C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd -to_files {{C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd' with file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd'.
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd -to_files {{C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/CORDIC3 Hyper/CORDIC_Hyperbolic_sqrt/CORDIC_sqrt/CORDIC_sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd' with file 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd'.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'CORDIC_hyperbolic_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj CORDIC_hyperbolic_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sources_1/new/CORDIC_Hyperbolic_vectoringmode.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_Hyperbolic_vectoringmode'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CORDIC_hyperbolic_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.sim/sim_1/behav/xsim'
+"xelab -wto d8865cb1bae1494fb4c5a922eb67354b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto d8865cb1bae1494fb4c5a922eb67354b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot CORDIC_hyperbolic_tb_behav xil_defaultlib.CORDIC_hyperbolic_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture sequential of entity xil_defaultlib.CORDIC_Hyperbolic_vectoringmode [cordic_hyperbolic_vectoringmode_...]
+Compiling architecture behavioral of entity xil_defaultlib.cordic_hyperbolic_tb
+Built simulation snapshot CORDIC_hyperbolic_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "CORDIC_hyperbolic_tb_behav -key {Behavioral:sim_1:Functional:CORDIC_hyperbolic_tb} -tclbatch {CORDIC_hyperbolic_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source CORDIC_hyperbolic_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'CORDIC_hyperbolic_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1330.359 ; gain = 0.000
+run all
+Failure: Simulation completed
+Time: 1140 ns  Iteration: 0  Process: /CORDIC_hyperbolic_tb/line__67  File: C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd
+$finish called at time : 1140 ns : File "C:/Users/AEA/Desktop/Darsi/term7/FPGA/HWs/HW4/extracted/sqrt/sqrt.srcs/sim_1/new/CORDIC_Hyperbolic_tb.vhd" Line 80
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project

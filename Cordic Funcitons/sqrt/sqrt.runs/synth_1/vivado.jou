@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2700185 on Thu Oct 24 18:46:05 MDT 2019
+# IP Build 2699827 on Thu Oct 24 21:16:38 MDT 2019
+# Start of session at: Fri Jan 21 12:14:21 2022
+# Process ID: 10436
+# Current directory: C:/Users/Sinah/Desktop/HW4/sqrt/sqrt.runs/synth_1
+# Command line: vivado.exe -log CORDIC_Hyperbolic_vectoringmode.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CORDIC_Hyperbolic_vectoringmode.tcl
+# Log file: C:/Users/Sinah/Desktop/HW4/sqrt/sqrt.runs/synth_1/CORDIC_Hyperbolic_vectoringmode.vds
+# Journal file: C:/Users/Sinah/Desktop/HW4/sqrt/sqrt.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CORDIC_Hyperbolic_vectoringmode.tcl -notrace
